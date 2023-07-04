@@ -85,6 +85,50 @@ fieldset
     border-radius: 4px;
 }
 
+@media screen and (max-width: 25rem) 
+{
+    #myForm
+    {
+        margin: auto;
+        max-width: 23rem;
+    }
+
+    .form
+    {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .container
+    {
+        padding: 2rem;
+    }
+
+    #fullname
+    {
+        width: 19rem;
+    }
+    
+    #email
+    {
+        width: 19rem;
+    }
+    
+    #message
+    {
+        width: 19rem;
+    }
+    
+    
+    
+    #submit-button
+    {
+        width: 15rem;
+    }
+}
+
 
 @media screen and (max-width: 40rem) and (min-width: 25rem)
 {
@@ -132,46 +176,4 @@ fieldset
     }
 }
 
-@media screen and (max-width: 25rem) 
-{
-    #myForm
-    {
-        margin: auto;
-        max-width: 23rem;
-    }
 
-    .form
-    {
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
-
-    .container
-    {
-        padding: 2rem;
-    }
-
-    #fullname
-    {
-        width: 19rem;
-    }
-    
-    #email
-    {
-        width: 19rem;
-    }
-    
-    #message
-    {
-        width: 19rem;
-    }
-    
-    
-    
-    #submit-button
-    {
-        width: 15rem;
-    }
-}
