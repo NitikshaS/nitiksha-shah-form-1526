@@ -137,14 +137,14 @@ fieldset
     #myForm
     {
         margin: auto;
-        max-width: 20rem;
+        max-width: 23rem;
     }
 
     .form
     {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        
         
     }
 
@@ -155,17 +155,17 @@ fieldset
 
     #fullname
     {
-        width: 22rem;
+        width: 19rem;
     }
     
     #email
     {
-        width: 22rem;
+        width: 19rem;
     }
     
     #message
     {
-        width: 23rem;
+        width: 19rem;
     }
     
     
