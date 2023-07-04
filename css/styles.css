@@ -16,7 +16,7 @@ legend
 {
     font-size: 2rem;
     background-color: white;
-    border: 0.1rem solid #DDD;
+    border: 0.2rem solid #DDD;
     padding: 1rem;
     margin-left: 1rem;
 }
@@ -27,13 +27,13 @@ fieldset
     align-items: center;
     justify-content: center;
     background-color: #F5F5F5;
-    border: 0.1rem solid #DDD;
+    border: 0.2rem solid #DDD;
     border-radius: 4px;
 }
 
 .container
 {
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 
@@ -97,6 +97,7 @@ fieldset
     {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         
         
     }
